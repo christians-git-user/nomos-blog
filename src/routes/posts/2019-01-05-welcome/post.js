@@ -1,6 +1,6 @@
 export default {
-  title: `Congratulations on Your New Blog!`,
-  tags: ['react', 'navi'],
-  spoiler: "Learn how to add new posts and tweak the theme to your liking.",
+  title: `welcome to a revolution in thought!`,
+  tags: ['welcome', 'cognition'],
+  spoiler: "Opposing ideology with science and right action",
   getContent: () => import('./document.mdx'),
 }
