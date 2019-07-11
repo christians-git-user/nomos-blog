@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "serve": "navi-scripts serve",
-    "deploy": "aws s3 sync build/ s3://example-bucket --acl public-read",
+    "deploy": "aws s3 sync build/ s3://nomos.io --acl public-read && aws s3 sync build/ s3://www.nomos.io --acl public-read",
     "deploy:prod": "netlify deploy --dir=build --prod"
   },
   "eslintConfig": {

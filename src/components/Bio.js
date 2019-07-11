@@ -13,7 +13,7 @@ function Bio(props) {
       ${styles.Bio}
       ${props.className || ''}
     `}>
-      <img src={photoURL} alt="Me" />
+      <img src='https://nomos-hosting.s3.amazonaws.com/images/waste.png' alt="Me" />
       <p>
         First point of contention.
         <br />
