@@ -24,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "serve": "navi-scripts serve",
-    "deploy": "aws s3 sync build/ s3://nomos.io --acl public-read && aws s3 sync build/ s3://www.nomos.io --acl public-read"
+    "deploy": "aws s3 sync build/ s3://nomos.io --acl public-read && aws s3 sync build/ s3://www.nomos.io --acl public-read",
+    "create-cloudfront-invalidation": "aws cloudfront create-invalidation --distribution-id EDE6YMFEGDWOE --paths /index.html /error.html"
   },
   "eslintConfig": {
     "extends": "react-app"
