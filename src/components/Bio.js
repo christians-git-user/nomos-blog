@@ -13,6 +13,8 @@ function Bio(props) {
       <img src ={photoURL} alt="Me" />
       <p>
         Meditations on technology, society, and power.
+        <br />
+        A Banerjee/Steckler collaboration.
       </p>
     </div>
   )
