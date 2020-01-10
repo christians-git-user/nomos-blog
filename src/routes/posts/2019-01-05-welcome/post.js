@@ -1,6 +1,6 @@
 export default {
-  title: `welcome to a revolution in thought!`,
+  title: `this is a test!`,
   tags: ['welcome', 'cognition'],
-  spoiler: "Opposing ideology with science and right action",
+  spoiler: "testing",
   getContent: () => import('./document.mdx'),
 }

@@ -12,9 +12,9 @@ function Bio(props) {
     `}>
       <img src ={photoURL} alt="Me" />
       <p>
-        Meditations on technology, society, and power.
+        nomos.io
         <br />
-        A Banerjee/Steckler collaboration.
+        this is a test
       </p>
     </div>
   )
